@@ -15,3 +15,12 @@ fichier texte que l’on va appeler “fichier2”.
 ● Ce fichier qui s’appelle fichier2 sera lui aussi pousser sur votre
 dépôt distant au sein de votre projet “exercice1”.
 
+git init
+git add .
+git commit -m "Commit 1 Exercice1"
+git remote add origin https://github.com/VincentLip/Exercice1.git
+git branch -M main
+git push -u origin main
+git add .
+git commit -m "Commit 2 Exercice1"
+git push -u origin main
